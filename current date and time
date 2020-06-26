@@ -1,0 +1,7 @@
+#Write a Python program to display the current date and time.(d-m-y h:m:s):-
+import datetime
+now = datetime.datetime.now()
+print("Date")
+print(now.strftime("%d-%m-%Y"))
+print("Time")
+print(now.strftime("%H:%M:%S"))
